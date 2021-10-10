@@ -46,13 +46,13 @@ npm install
 WebDriverIO is used to write e2e automated tests for web and mobile. It provides a variety of Test frameworks to provide a BDD way of writing tests and assertions. To get more understanding on how to set up the WebDriverIO from scratch please follow the link **`https://webdriver.io/docs/gettingstarted`**
 
 **WebDriverIO Architecture for running tests**
-![](https://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/WebDriverio.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/WebDriverio.png)
 
 ### Framework Folder Structure
 **Page Object Model** is used to introduce reusability of the functionalities across the application. Sometimes Page classes can become very large and difficult to maintain. This drawback is improved by introducing Page components in the framework which can later be added to the appropriate pages to introduce single responsibility among the classes. If a particular component is being used across the classes then composition is also used to make that resuable component available to different class.
 **Waits** are handled using Expected Conditions.
 **Specs** are written using Mocha under **tests** folders.
-![](https://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/FolderArchitecture.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/FolderArchitecture.png)
 
 ### Automated Scenarios
 Two user journey has been automated which are given below
@@ -67,12 +67,12 @@ Note  **<<specToExecute>> = ./src/tests/udemy.spec.js or ./src/tests/amazon.spec
 ```
 npm run test -- --spec <<specToExecute>>
 ```
-![](https://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/UdemySpec.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/UdemySpec.png)
 To run tests sequentially on headless mode
 ```
 npm run test:ci -- --spec <<specToExecute>>
 ```
-![](https://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/Amazospec.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/Amazospec.png)
 To run tests parallel on headful mode
 ```
 npm run test
@@ -81,7 +81,7 @@ To run tests parallel on headless mode
 ```
 npm run test:ci
 ```
-![](://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/ParallelExecution.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/ParallelExecution.png)
 
 ### Running Through IDE
 You can also execute the tests through VS Code. You can use the above commands to run in VS Code integrated terminal. Press **Ctrl+~** to open integrated terminal in IDE.
@@ -96,7 +96,7 @@ docker build -t <<imagename>> .
 <<imagename>> can be anything . Preferred way is to use `yourdockerid/application_name`
 e.g. `jeeshan12/wdio`
 You will get something similar to this in console once image is built successfully
-![](://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/DockerBuild.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/DockerBuild.png)
 
 * Now Run the `WebDriverIO Tests` by running below command
 ```
@@ -104,4 +104,4 @@ docker run --rm jeeshan12/wdio run test:ci
 
 ```
  You will get something similar in console while the execution is happening
-![](://github.com/jeeshan12/WebDriverIOAutomation.git/blob/main/screenshots/DockerExecution.png)
+![](https://github.com/jeeshan12/WebDriverIOAutomation/blob/main/screenshots/DockerExecution.png)
