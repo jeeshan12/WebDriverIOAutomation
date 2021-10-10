@@ -62,8 +62,8 @@ Two user journey has been automated which are given below
 
 ## Running Tests
 We can run our tests sequentially(one by one) or in parallel. Tests can be run on headless and headful chrome.
-To run tests sequentially on headful mode
-Note  **<<specToExecute>> = ./src/tests/udemy.spec.js or ./src/tests/amazon.spec.js**
+To run tests sequentially on headful mode.
+Note  **specToExecute = ./src/tests/udemy.spec.js or ./src/tests/amazon.spec.js**
 ```
 npm run test -- --spec <<specToExecute>>
 ```
