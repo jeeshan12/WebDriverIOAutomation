@@ -1,0 +1,20 @@
+{
+  "name": "webdriverio_automation",
+  "version": "1.0.0",
+  "description": "Amazon automation using webdriver io and mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "test:ci": "wdio run ./wdio.conf.ci.js"
+  },
+  "author": "mjeeshan",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.14.1",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "chromedriver": "^94.0.0",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
