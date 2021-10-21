@@ -1,6 +1,6 @@
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohdjeeshan)
 
-# Automation Project
+# Automation Project Details
 This project automates  Amazon and google happy flow for automation using  WebDriver.io
 ## Table of Contents
 
