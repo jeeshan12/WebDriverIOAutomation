@@ -4,7 +4,7 @@ const ProductPage = require("../pages/product.po");
 
 describe("Adding Product to a Cart", () => {
   const productName =
-    'Amazon Basics Lightweight Super Soft Easy Care Microfiber Bed Sheet Set with 14" Deep Pockets - Queen, Dark Gray';
+    'Amazon Basics Ultra-Soft Micromink Sherpa Blanket - Full or Queen, Charcoal';
   it("User will be able to add products to a cart", async () => {
     await LandingPage.open();
     await expect(LandingPage.amazonBasicsLabel).toBeExisting();
